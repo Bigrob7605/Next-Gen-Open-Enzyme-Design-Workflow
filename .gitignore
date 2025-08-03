@@ -112,6 +112,8 @@ logs/
 *.cxs
 *.pse
 !viz/PETase_S238F_2025-08-03/energy_analysis.png
+!assets/images/vpt101_empty_bus.png
+!assets/images/vpt101_loaded_bus.png
 
 # Configuration files with sensitive data
 config.yaml
