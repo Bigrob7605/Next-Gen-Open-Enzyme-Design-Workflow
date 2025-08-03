@@ -1,0 +1,14 @@
+{
+  "experiment_id": "PETase_test_2024-01-15",
+  "date": "2025-08-03T09:56:57.691530",
+  "author": "Local Test",
+  "tool": "Test Workflow",
+  "version": "1.0.0",
+  "sequence_length": 290,
+  "mutation": "S238F",
+  "status": "IN_SILICO_ONLY",
+  "parameters": {
+    "model_type": "test",
+    "confidence_threshold": 0.8
+  }
+}

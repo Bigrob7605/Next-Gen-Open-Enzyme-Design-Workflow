@@ -1,0 +1,46 @@
+# Core dependencies for the Next-Gen Open Enzyme Design Workflow
+# Python 3.8+ required
+
+# Data handling and scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+pandas>=1.3.0
+
+# Configuration and file handling
+pyyaml>=6.0
+configparser>=5.0.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Bioinformatics tools
+biopython>=1.79
+prody>=2.0.0
+
+# Optional: AlphaFold dependencies (if using local installation)
+# alphafold>=2.3.0
+# colabfold>=1.5.0
+
+# Optional: Rosetta dependencies (if using PyRosetta)
+# pyrosetta>=2021.16
+
+# Development and testing
+pytest>=6.0
+black>=21.0
+flake8>=3.9
+
+# Documentation
+sphinx>=4.0
+sphinx-rtd-theme>=1.0
+
+# Jupyter for interactive analysis
+jupyter>=1.0
+ipykernel>=6.0
+
+# File handling and utilities
+pathlib2>=2.3.0
+tqdm>=4.62.0
+
+# Logging and monitoring
+colorlog>=6.0.0 
