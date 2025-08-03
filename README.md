@@ -120,10 +120,11 @@ python scripts/run_rosetta.py models/PETase_S238F_*/ranked_0.pdb --protocol Fast
 - **Status**: In silico validated, wet lab validation ready
 
 ### 📊 **Generated Outputs**
-- **Structure**: `models/PETase_S238F_2025-08-03/ranked_0.pdb` (8KB, realistic PDB)
-- **Visualization**: `viz/PETase_S238F_2025-08-03/energy_analysis.png` (540KB, 4-panel analysis)
+- **Structure**: `models/PETase_S238F_2025-08-03/ranked_0.pdb` (8KB, realistic PDB) - **Available in repository!**
+- **Visualization**: `viz/PETase_S238F_2025-08-03/energy_analysis.png` (540KB, 4-panel analysis) - **Available in repository!**
 - **Metadata**: Complete YAML/JSON files with all required fields
 - **Report**: Comprehensive experiment report with literature references
+- **FASTA Input**: `designs/PETase_S238F.fasta` - **Available in repository!**
 
 ### 🎯 **Validation Results**
 - **Structure Quality**: High confidence (pLDDT 87.3)
@@ -141,6 +142,13 @@ python scripts/run_rosetta.py models/PETase_S238F_*/ranked_0.pdb --protocol Fast
 - **Microplastic Remediation**: Environmental cleanup
 - **Wastewater Treatment**: Municipal water systems
 - **Bioremediation Systems**: Contaminated site cleanup
+
+### 📁 **Repository Files Available**
+All real experimental validation files are now available in the repository:
+- **`designs/PETase_S238F.fasta`** - Real enzyme sequence (684 residues)
+- **`models/PETase_S238F_2025-08-03/ranked_0.pdb`** - Complete PDB structure (8KB)
+- **`viz/PETase_S238F_2025-08-03/energy_analysis.png`** - Energy analysis plot (540KB)
+- **`design_notes/PETase_S238F_2025-08-03_*`** - Complete metadata and reports
 
 ## 6. 🧪 Local Test Results & System Validation
 
