@@ -1,0 +1,62 @@
+# GitHub Pages Configuration
+# Next-Gen Open Enzyme Design Workflow
+
+# Site settings
+title: Next-Gen Open Enzyme Design Workflow
+description: Revolutionizing computational enzyme design with state-of-the-art open-source tools
+url: "https://bigrob7605.github.io"
+baseurl: "/Next-Gen-Open-Enzyme-Design-Workflow"
+
+# Author information
+author:
+  name: "Rob Long"
+  email: "screball7605@aol.com"
+
+# Repository information
+repository:
+  name: "Next-Gen-Open-Enzyme-Design-Workflow"
+  url: "https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include files
+include:
+  - _config.yml
+  - index.html
+  - README.md
+  - docs/
+  - scripts/
+  - examples/
+  - citations/ 
