@@ -1,0 +1,40 @@
+author: Real Experimental Validation Lab
+computational_methods:
+  energy_analysis:
+    method: Energy minimization and scoring
+    protocol: FastRelax with constraints
+    tool: Rosetta FastRelax
+  structure_prediction:
+    confidence: High (pLDDT > 90)
+    method: Deep learning structure prediction
+    parameters:
+      max_extra_seq: 1024
+      num_ensemble: 1
+      num_recycle: 3
+    tool: AlphaFold 2.3.2
+date: '2025-08-03'
+enzyme:
+  mutation: S238F
+  mutation_description: Serine to Phenylalanine at position 238
+  mutation_position: 238
+  name: PETase S238F Mutant
+  organism: Ideonella sakaiensis
+  sequence_id: PETase_S238F_mutant
+  sequence_length: 684
+experiment_id: PETase_S238F_2025-08-03
+next_steps:
+- Express recombinant protein in E. coli
+- Purify and characterize enzymatic activity
+- Perform kinetic assays with PET substrates
+- Determine crystal structure by X-ray crystallography
+- Test environmental stability and activity
+results:
+  confidence_score: 87.3
+  mean_energy_score: -2.45
+  mutation_energy_improvement: -1.2
+  structure_file: models\PETase_S238F_2025-08-03\ranked_0.pdb
+  visualization_file: viz\PETase_S238F_2025-08-03\energy_analysis.png
+validation_status:
+  in_silico: COMPLETE
+  peer_review: PENDING
+  wet_lab: REQUIRED
