@@ -80,7 +80,37 @@ Pull Requests MUST:
 Every directory contains a `/CITATIONS.md` file:
 - List AlphaFold, Rosetta, ChimeraX, ColabFold, etc. with links/DOIs
 
-## 4. 🧪 Local Test Results & System Validation
+## 4. 🚀 Quick Start Guide
+
+### ⚡ **Get Your Lab Running in 10 Minutes**
+
+```bash
+# 1. Clone and setup
+git clone https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow.git
+cd Next-Gen-Open-Enzyme-Design-Workflow
+pip install -r requirements.txt
+
+# 2. Validate your system
+python test_workflow.py
+# Should show: "🎉 All tests passed!"
+
+# 3. Design your first enzyme
+python scripts/run_alphafold.py designs/PETase_S238F.fasta --author "Your Lab"
+python scripts/run_rosetta.py models/PETase_S238F_*/ranked_0.pdb --protocol FastRelax
+```
+
+### 🎯 **Perfect For**
+- **Research Labs** - Validate enzyme designs before wet lab experiments
+- **Startups** - Accelerate protein engineering without expensive licenses
+- **Universities** - Teach computational biology with real tools
+- **Industry** - Prototype enzyme designs for commercial applications
+
+### 📋 **System Requirements**
+- **Minimum**: 8GB RAM, Python 3.8+
+- **Recommended**: 16GB+ RAM, GPU acceleration
+- **Optimal**: 32GB+ RAM, RTX 3070+ for local AlphaFold
+
+## 5. 🧪 Local Test Results & System Validation
 
 ### ✅ **Test Results Summary**
 - **Date**: August 3, 2025
@@ -173,5 +203,37 @@ VPT-101/
 ├── citations/        # Tool citations and references
 └── examples/         # Example workflows and templates
 ```
+
+## 9. 🔍 Limitations & Next Steps
+
+### ⚠️ **Current Limitations**
+We believe in transparency about what this platform can and cannot do:
+
+- **Computational Resources**: AlphaFold requires significant GPU memory (8GB+ recommended)
+- **Local Installation**: Rosetta requires academic license or local compilation
+- **Validation Gap**: In silico predictions need wet lab validation
+- **Expertise Required**: Basic Python and bioinformatics knowledge needed
+- **Cloud Costs**: Large-scale runs may incur cloud computing costs
+
+### 🚀 **Next Steps & Collaboration**
+We're actively working on:
+
+- **Wet Lab Validation**: Partner with experimental labs for structure validation
+- **Cloud Integration**: Add AWS/GCP deployment options
+- **GUI Development**: Create user-friendly interface for non-programmers
+- **Database Integration**: Connect to UniProt, PDB, and other databases
+- **Community Building**: Establish user forums and collaboration networks
+
+### 🤝 **Join the Collaboration**
+This is an open-source project. We welcome:
+- **💡 Suggestions**: [GitHub Issues](https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow/issues)
+- **🔧 Code Contributions**: [GitHub Pull Requests](https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow/pulls)
+- **📧 Direct Contact**: screball7605@aol.com
+- **🌐 Community**: Join our growing network of researchers
+
+## 10. Disclaimers
+- This is a research tool, not a medical product.
+- All in silico predictions require experimental validation.
+- Use responsibly.
 
 Let's do this! 

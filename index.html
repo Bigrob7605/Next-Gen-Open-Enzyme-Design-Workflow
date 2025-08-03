@@ -439,25 +439,46 @@
             </div>
         </section>
 
-        <!-- Get Started Section -->
+        <!-- Quick Start Guide Section -->
         <section id="get-started" class="section">
-            <h2>🚀 Quick Start</h2>
-            <div class="code-block fade-in">
-                <pre><code># Clone the repository
-git clone https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow.git
+            <h2>🚀 Quick Start Guide</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">
+                Get your lab up and running in under 10 minutes
+            </p>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">⚡</div>
+                    <h3>1. Clone & Setup</h3>
+                    <div class="code-block" style="margin: 1rem 0; font-size: 0.9rem;">
+                        <pre><code>git clone https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow.git
 cd Next-Gen-Open-Enzyme-Design-Workflow
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the test suite
-python test_workflow.py
-
-# Should show: "🎉 All tests passed! Workflow is ready for use."</code></pre>
+pip install -r requirements.txt</code></pre>
+                    </div>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🧪</div>
+                    <h3>2. Validate System</h3>
+                    <div class="code-block" style="margin: 1rem 0; font-size: 0.9rem;">
+                        <pre><code>python test_workflow.py
+# Should show: "🎉 All tests passed!"</code></pre>
+                    </div>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🧬</div>
+                    <h3>3. Design Your First Enzyme</h3>
+                    <div class="code-block" style="margin: 1rem 0; font-size: 0.9rem;">
+                        <pre><code>python scripts/run_alphafold.py designs/PETase_S238F.fasta --author "Your Lab"
+python scripts/run_rosetta.py models/PETase_S238F_*/ranked_0.pdb --protocol FastRelax</code></pre>
+                    </div>
+                </div>
             </div>
             
             <div style="text-align: center; margin-top: 2rem;">
                 <a href="https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow" target="_blank" class="btn btn-primary">📖 View Full Documentation</a>
+                <a href="https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow/issues" target="_blank" class="btn btn-secondary" style="margin-left: 1rem;">🐛 Report Issues</a>
             </div>
         </section>
 
@@ -522,6 +543,52 @@ python test_workflow.py
                 <div class="feature-card fade-in">
                     <h3>🌱 Environmental Applications</h3>
                     <p>Specifically designed for plastic-degrading enzyme development and environmental remediation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Limitations & Next Steps Section -->
+        <section class="section">
+            <h2>🔍 Limitations & Next Steps</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">
+                Honest assessment and invitation for collaboration
+            </p>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in" style="border-left: 4px solid #f59e0b;">
+                    <div class="feature-icon">⚠️</div>
+                    <h3>Current Limitations</h3>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li><strong>Computational Resources:</strong> AlphaFold requires significant GPU memory (8GB+ recommended)</li>
+                        <li><strong>Local Installation:</strong> Rosetta requires academic license or local compilation</li>
+                        <li><strong>Validation Gap:</strong> In silico predictions need wet lab validation</li>
+                        <li><strong>Expertise Required:</strong> Basic Python and bioinformatics knowledge needed</li>
+                        <li><strong>Cloud Costs:</strong> Large-scale runs may incur cloud computing costs</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card fade-in" style="border-left: 4px solid #10b981;">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Next Steps & Collaboration</h3>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li><strong>Wet Lab Validation:</strong> Partner with experimental labs for structure validation</li>
+                        <li><strong>Cloud Integration:</strong> Add AWS/GCP deployment options</li>
+                        <li><strong>GUI Development:</strong> Create user-friendly interface for non-programmers</li>
+                        <li><strong>Database Integration:</strong> Connect to UniProt, PDB, and other databases</li>
+                        <li><strong>Community Building:</strong> Establish user forums and collaboration networks</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <h3 style="color: #667eea; margin-bottom: 1rem;">🤝 Join the Collaboration</h3>
+                <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+                    This is an open-source project. We welcome contributions, feedback, and partnerships.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow/issues" target="_blank" class="btn btn-primary">💡 Suggest Improvements</a>
+                    <a href="https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow/pulls" target="_blank" class="btn btn-secondary">🔧 Submit Code</a>
+                    <a href="mailto:screball7605@aol.com" class="btn btn-secondary">📧 Contact Us</a>
                 </div>
             </div>
         </section>
