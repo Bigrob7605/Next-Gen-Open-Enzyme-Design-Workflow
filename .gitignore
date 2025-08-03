@@ -78,10 +78,11 @@ venv.bak/
 dmypy.json
 
 # Project-specific
-# Large model files
+# Large model files (exclude except validation examples)
 models/*/ranked_*.pdb
 models/*/relaxed_*.pdb
 models/*/unrelaxed_*.pdb
+!models/PETase_S238F_2025-08-03/ranked_0.pdb
 
 # Temporary files
 *.tmp
@@ -94,14 +95,15 @@ models/*/unrelaxed_*.pdb
 *.log
 logs/
 
-# Data files
+# Data files (exclude except validation examples)
 *.fasta
 *.pdb
 *.cif
 *.sc
 *.silent
+!designs/PETase_S238F.fasta
 
-# Visualization files
+# Visualization files (exclude except validation examples)
 *.png
 *.jpg
 *.jpeg
@@ -109,6 +111,7 @@ logs/
 *.svg
 *.cxs
 *.pse
+!viz/PETase_S238F_2025-08-03/energy_analysis.png
 
 # Configuration files with sensitive data
 config.yaml
