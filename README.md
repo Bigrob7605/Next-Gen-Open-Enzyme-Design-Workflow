@@ -9,6 +9,14 @@
 ## 1. Project Scope
 This platform empowers anyone to design, model, and share new plastic-degrading enzyme variants using state-of-the-art open-source tools. All outputs are labeled with tool, parameters, and validation status.
 
+### 🚌 **Related: VPT-101 "Drug Bus" Platform**
+This workflow is part of a larger ecosystem including **VPT-101**, the revolutionary "Drug Bus" of nanomedicine:
+- **Modular Design**: Vault proteins as chassis, enzymes/drugs as passengers
+- **Universal Platform**: Same delivery vehicle, different therapeutic payloads
+- **Smart Navigation**: Programmable targeting for specific tissues/cells
+- **Open Source**: Accelerating global scientific collaboration
+- **Visual Showcase**: See the "Empty Bus" and "Loaded Bus" visualizations on our website
+
 ### 🚀 **Recent Achievements**
 - ✅ **Real experimental validation** with PETase S238F mutant (684 residues)
 - ✅ **Publication-quality outputs**: PDB structure, energy analysis, comprehensive documentation
@@ -149,6 +157,13 @@ All real experimental validation files are now available in the repository:
 - **`models/PETase_S238F_2025-08-03/ranked_0.pdb`** - Complete PDB structure (8KB)
 - **`viz/PETase_S238F_2025-08-03/energy_analysis.png`** - Energy analysis plot (540KB)
 - **`design_notes/PETase_S238F_2025-08-03_*`** - Complete metadata and reports
+
+### 🚌 **VPT-101 Drug Bus Visualizations**
+Revolutionary concept visualizations are also available:
+- **`assets/images/vpt101_empty_bus.png`** - Vault protein chassis (2.1MB)
+- **`assets/images/vpt101_loaded_bus.png`** - Therapeutic payload delivery (2.0MB)
+- **Concept**: Universal drug delivery platform with swappable payloads
+- **Impact**: Modular nanomedicine for global collaboration
 
 ## 6. 🧪 Local Test Results & System Validation
 
